@@ -1,0 +1,30 @@
+Meta:
+  name: DoubleHat E22 Radio 1
+  support: community
+  compatible:
+    - raspberry-pi
+    
+Lora:
+  Module: sx1262
+  DIO3_TCXO_VOLTAGE: 1.8
+  DIO2_AS_RF_SWITCH: true
+  IRQ: 12
+  Busy: 13 
+  Reset: 16
+  RXen: 26
+  # Only for E22-900M33S:
+  # Limit the output power to 8 dBm
+  # SX126X_MAX_POWER: 8 
+
+  spidev: spidev1.1 
+  spiSpeed: 2000000
+
+### Define GPS
+
+# GPS:
+#   SerialPath: /dev/ttyAMA4
+
+### Specify I2C device, or leave blank for none
+
+I2C:
+  I2CDevice: /dev/i2c-4

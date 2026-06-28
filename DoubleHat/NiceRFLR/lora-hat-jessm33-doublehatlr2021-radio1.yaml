@@ -1,0 +1,38 @@
+Meta:
+  name: DoubleHat LR2021 Radio 1
+  support: community
+  compatible:
+    - raspberry-pi
+    
+Lora:
+  Module: lr2021
+  DIO3_TCXO_VOLTAGE: 1.8
+  # Defaults for LR2021, but can be overridden by user config
+  # LR2021_MAX_POWER: 22
+  # LR2021_MAX_POWER_HF: 22
+  # LR2021_IRQ_DIO_NUM: 9
+  IRQ: 12
+  Busy: 16
+  Reset: 13
+
+  spidev: spidev1.1
+  spiSpeed: 2000000
+
+  # NiceRF LoRa2021F33 module
+  rfswitch_table:
+    pins: [DIO5, DIO6, DIO8]
+    MODE_STBY: [LOW, LOW, LOW]
+    MODE_RX: [LOW, LOW, LOW]
+    MODE_TX: [LOW, HIGH, LOW]
+    MODE_RX_HF: [HIGH, LOW, LOW]
+    MODE_TX_HF: [LOW, LOW, HIGH]
+
+### Define GPS
+
+# GPS:
+#   SerialPath: /dev/ttyAMA4
+
+### Specify I2C device, or leave blank for none
+
+I2C:
+  I2CDevice: /dev/i2c-4
