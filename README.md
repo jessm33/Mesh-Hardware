@@ -23,12 +23,18 @@ A compact single-radio LoRa hat for the LuckFox Pico Ultra and LuckFox Lyra Ultr
 |----------------------|------------------|--------|
 | [NiceFox/](NiceFox/) | NiceRF LR2021F33 | LR2021 |
 
+### 1.25 Meter SX1262 Module — 222–225 MHz mikroBUS LoRa Module
+
+A mikroBUS-format LoRa add-on board tuned for the US amateur 1.25 meter band (222–225 MHz), built around a bare SX1262.
+
+| Directory                                                     | Module | Chip   |
+|----------------------------------------------------------------|--------|--------|
+| [1.25 Meter SX1262 Module/](1.25%20Meter%20SX1262%20Module/) | SX1262 | SX1262 |
+
 ---
 
 ## License
 
-This work is licensed under **[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](LICENSE.md)**.
+This work is licensed under the **[CERN Open Hardware Licence Version 2 - Strongly Reciprocal (CERN-OHL-S v2)](LICENSE.md)**.
 
-**Commercial use of these designs is not permitted.** You are free to build, modify, and share them for personal and non-commercial purposes, provided you credit the original author and license any derivatives under the same terms.
-
-[![CC BY-NC-SA 4.0](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)](LICENSE.md)
+You are free to use, study, modify, and distribute these designs and products made from them, provided that any Product embodying this Licensed Material — or Modifications of it — is made available under the same licence, with corresponding source made available per Section 5.

@@ -9,8 +9,8 @@ Lora:
   DIO3_TCXO_VOLTAGE: 1.8
   # Defaults for LR2021, but can be overridden by user config
   # LR2021_MAX_POWER: 22
-  # LR2021_MAX_POWER_HF: 22
-  # LR2021_IRQ_DIO_NUM: 9
+  # LR2021_MAX_POWER_HF: 12
+  LR2021_IRQ_DIO_NUM: 9
   IRQ: 12
   Busy: 16
   Reset: 13
