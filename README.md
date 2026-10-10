@@ -31,6 +31,14 @@ A mikroBUS-format LoRa add-on board tuned for the US amateur 1.25 meter band (22
 |----------------------------------------------------------------|--------|--------|
 | [1.25 Meter SX1262 Module/](1.25%20Meter%20SX1262%20Module/) | SX1262 | SX1262 |
 
+### nRF52840 + EniceRF 1W LR2021 Solar LoRa/GNSS Node
+
+A standalone, solar-rechargeable LoRa sensor/tracker node on a Seeed XIAO nRF52840 Plus, with a dual-band (sub-GHz + 2.4 GHz) EniceRF 1W LR2021F33 radio, GNSS, environmental and power sensing, and an onboard 21700 Li-ion cell.
+
+| Directory                                | Module             | Chip    |
+|-------------------------------------------|---------------------|---------|
+| [lr2021_1w_nrf/](lr2021_1w_nrf/)         | EniceRF LR2021F33 1W | LR2021 |
+
 ---
 
 ## License
