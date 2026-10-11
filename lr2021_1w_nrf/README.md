@@ -1,4 +1,4 @@
-# nRF52840 + EniceRF 1W LR2021 Solar LoRa/GNSS Node
+# nRF52840 + NiceRF 1W LR2021 Solar LoRa/GNSS Node
 
 A standalone, solar-rechargeable LoRa sensor/tracker node built around a **Seeed XIAO nRF52840 Plus** MCU and an **EniceRF 1 W LR2021F33** module. The Semtech **LR2021** is a dual-band transceiver, giving the board independent **sub-GHz LoRa** and **2.4 GHz** antenna ports off a single radio. The board also carries GNSS, environmental sensing, triple-channel power monitoring, and an onboard 21700 Li-ion cell with solar charging — intended for off-grid Meshtastic-style deployment.
 
@@ -15,7 +15,7 @@ A standalone, solar-rechargeable LoRa sensor/tracker node built around a **Seeed
 ## Features
 
 - **Seeed XIAO nRF52840 Plus (U1)** — MCU/BLE radio, socketed with castellated edges, USB-C for flashing/power.
-- **EniceRF 1 W LR2021F33 (U3)** — dual-band Semtech LR2021 LoRa transceiver (sub-GHz + 2.4 GHz), SPI + BUSY/RESET/IRQ/CE control.
+- **NiceRF 1 W LR2021F33 (U3)** — dual-band Semtech LR2021 LoRa transceiver (sub-GHz + 2.4 GHz), SPI + BUSY/RESET/IRQ/CE control.
 - **Quectel L76KB-A58 GNSS module (U15)** — dedicated GNSS antenna port, 1PPS, UART, and a backup-supply diode (U14) for warm starts.
 - **Sensirion SHT40 (U5)** — I2C temperature/humidity sensor.
 - **TI INA3221 (U17)** — triple-channel I2C current/voltage monitor, fed by three Kelvin-sensed 100 mΩ shunts (R6–R8); I2C address selectable between 0x40–0x43 via solder-jumper pads on the back.
