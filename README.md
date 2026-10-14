@@ -15,6 +15,9 @@ A Raspberry Pi HAT+ carrying two LoRa radios, dual GPS, and dual AHT20 temperatu
 | [DoubleHat/NiceRFLR/](DoubleHat/NiceRFLR/) | NiceRF LR1121F33 / LR2021F33 | LR1121 / LR2021 |
 | [DoubleHat/EbyteE22/](DoubleHat/EbyteE22/) | Ebyte E22 / E22P             | SX1262          |
 
+> [!NOTE]
+> `DoubleHat/NiceRFLR/` now holds the v2 design, which has **not yet been tested** — EEPROM image and Meshtastic config files are coming once it's verified. The previous design has moved to [DoubleHat/NiceRFLR/v1/](DoubleHat/NiceRFLR/v1/) and is **no longer recommended**.
+
 ### NiceFox — NiceRF LR2021F33 Hat for LuckFox Ultra
 
 A compact single-radio LoRa hat for the LuckFox Pico Ultra and LuckFox Lyra Ultra SBCs.
